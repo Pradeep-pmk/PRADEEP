@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+    border-style: groove;
+    border-width: 8px;
+    border-color: bisque;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 7px 20px 10px orange;
+    cursor: pointer;
+}
+
+.a {
+    padding-top: 5px;
+  
+}
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container div {
+    flex-basis: 20%;
+    flex-grow: 1;
+
+
+}
+
+.b {
+    flex-basis: 20%;
+    flex-grow: 1;
+
+}
+
+.container p{
+    width: 200px;
+}
